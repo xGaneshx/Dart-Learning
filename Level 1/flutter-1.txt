@@ -1,0 +1,26 @@
+void main(){
+    var obj = Universe();
+    observableUniverse();
+    planets("mars",2);
+    
+
+    
+}
+void observableUniverse(){
+    print("This is the space we can observe");
+}
+void planets(String name,int radius){
+    String ad = name;
+
+    print("The name of planet is $ad");
+    print("The volume of planet is 1111");
+    
+}
+class Universe{
+    Universe(){
+        print("The universe has millions of stars");
+        print("The universe has many planets");
+    }
+    
+    
+}
